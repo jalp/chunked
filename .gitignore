@@ -1,0 +1,42 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.directory
+
+# Temporary files:
+*~
+*.swp
+*.pyc
+*.pyo
+*.svn
+# SQLite3 DB files:
+*.db
+*.sql
+
+*.log
+
+# Python virtual environments:
+env
+
+# File cache:
+cache
+
+# Log files:
+log
+
+# Secret key:
+SECRET
+
+# Pycharm project
+.idea
+
+# Ant build
+build
+
+# Coverage
+.coverage
