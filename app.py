@@ -24,7 +24,7 @@ class Items(Resource):
     def post(self):
         response = {'res': 'OK'}
         app.logger.info(request.data)
-        print(request.data)
+        
         if not request.data:
             response['res'] = 'Empty'
         return response
