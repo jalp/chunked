@@ -3,4 +3,4 @@ ADD . /code
 WORKDIR /code
 RUN pip install -r requirements.txt
 EXPOSE 5000
-CMD python app.py
+CMD gunicorn app:app -w 2 -b :5000
